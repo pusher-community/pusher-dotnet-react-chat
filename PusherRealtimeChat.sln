@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherRealtimeChat.WebAPI", "PusherRealtimeChat.WebAPI\PusherRealtimeChat.WebAPI.csproj", "{3880FBCD-E801-49B4-9754-B5F39C923351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherRealtimeChat.UI", "PusherRealtimeChat.UI\PusherRealtimeChat.UI.csproj", "{7941A064-56EB-453F-9952-A8298D361267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3880FBCD-E801-49B4-9754-B5F39C923351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3880FBCD-E801-49B4-9754-B5F39C923351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3880FBCD-E801-49B4-9754-B5F39C923351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3880FBCD-E801-49B4-9754-B5F39C923351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7941A064-56EB-453F-9952-A8298D361267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7941A064-56EB-453F-9952-A8298D361267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7941A064-56EB-453F-9952-A8298D361267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7941A064-56EB-453F-9952-A8298D361267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
