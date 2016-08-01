@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import axios from "axios";
 import Pusher from "pusher-js";
 
-const baseUrl = 'http://localhost:<YOUR PORT NUMBER>';
+const baseUrl = 'http://localhost:50811';
 
 const Welcome = ({ onSubmit }) => {
     let usernameInput;
@@ -17,7 +17,7 @@ const Welcome = ({ onSubmit }) => {
                 <input type="text" placeholder="Enter Twitter handle here" ref={node => {
                     usernameInput = node;
                 }}/>
-                <input type="submit" value="Send" />
+                <input type="submit" value="Join the chat" />
             </form>
         </div>
     );
@@ -47,7 +47,7 @@ const ChatMessage = ({ message, username }) => (
             width: 24,
             height: 24
         }}/>
-        <strong>@{username} said:</strong> {message}
+        <strong>@{username}: </strong> {message}
     </li>
 );
 
@@ -85,7 +85,7 @@ const App = React.createClass({
                 this.setState({
                     messages: response.data
                 });
-                var pusher = new Pusher('YOUR PUSHER APP KEY', {
+                var pusher = new Pusher('07a51219d95bf978b342', {
                     encrypted: true
                 });
                 var chatRoom = pusher.subscribe('messages');

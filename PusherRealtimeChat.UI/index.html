@@ -2,9 +2,48 @@
 <head>
     <title>Pusher Realtime Chat</title>
     <meta charset="utf-8" />
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f8fb;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+        form * {
+            font-size: inherit;
+            font-family: inherit;
+            width: 100%;
+            margin-bottom: 8px;
+            padding: 5px;
+        }
+        input[type="submit"] {
+            background-color: #2b303b;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        li img {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container" id="app"></div>
+    <div class="container">
+        <img src="pusher_logo_dark.png" width="450" />
+        <div id="app"></div>
+    </div>
     <script src="./bundle.js"></script>
 </body>
 </html>

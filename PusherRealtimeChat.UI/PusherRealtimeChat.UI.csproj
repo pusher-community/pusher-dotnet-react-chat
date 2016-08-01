@@ -101,6 +101,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
+    <Content Include="pusher_logo_dark.png" />
     <Content Include="webpack.config.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

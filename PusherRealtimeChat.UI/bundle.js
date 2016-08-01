@@ -87,7 +87,7 @@
 	            _react2.default.createElement("input", { type: "text", placeholder: "Enter Twitter handle here", ref: function ref(node) {
 	                    usernameInput = node;
 	                } }),
-	            _react2.default.createElement("input", { type: "submit", value: "Send" })
+	            _react2.default.createElement("input", { type: "submit", value: "Join the chat" })
 	        )
 	    );
 	};
@@ -125,7 +125,7 @@
 	            null,
 	            "@",
 	            username,
-	            " said:"
+	            ": "
 	        ),
 	        " ",
 	        message
