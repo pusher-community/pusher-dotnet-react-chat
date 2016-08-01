@@ -41,7 +41,7 @@ namespace PusherRealtimeChat.WebAPI.Controllers
             }
             messages.Add(message);
             var pusher = new Pusher(
-                "YOUR PUSHER APP IDj",
+                "YOUR PUSHER APP ID",
                 "YOUR PUSHER APP KEY",
                 "YOUR PUSHER APP SECRET");
             pusher.Trigger(
