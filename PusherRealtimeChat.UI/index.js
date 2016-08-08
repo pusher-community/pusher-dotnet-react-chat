@@ -85,7 +85,7 @@ const App = React.createClass({
                 this.setState({
                     messages: response.data
                 });
-                var pusher = new Pusher('07a51219d95bf978b342', {
+                var pusher = new Pusher('YOUR APP KEY', {
                     encrypted: true
                 });
                 var chatRoom = pusher.subscribe('messages');

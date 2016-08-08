@@ -41,9 +41,9 @@ namespace PusherRealtimeChat.WebAPI.Controllers
             }
             messages.Add(message);
             var pusher = new Pusher(
-                "231188",
-                "07a51219d95bf978b342",
-                "db5c36d5b9f718f44f50");
+                "YOUR APP ID",
+                "YOUR APP KEY",
+                "YOUR APP SECRET");
             pusher.Trigger(
                 channelName: "messages", 
                 eventName: "new_message", 
